@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boas-vindas à Aventura</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('imagem/ground.png'); /* substitua pelo caminho da sua imagem */
+      background-size: cover;
+      background-position: center;
+      font-family: 'Georgia', serif;
+      color: #fff;
+      text-shadow: 1px 1px 4px #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .intro-box {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #ffe38f;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .btn-comecar {
+      padding: 12px 25px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      background-color: #4caf50;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn-comecar:hover {
+      background-color: #388e3c;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="intro-box">
+    <h1>Bem-vindo à batalha!</h1>
+    <p>
+      Hoje temos uma grande missão: <br>
+      Ajudar o bravo cavaleiro a derrotar o elfo sombrio. <br><br>
+      Mas para isso, ele precisa da sua ajuda! <br>
+      Você deve completar um desafio mágico: <br>
+      <strong>combinar os elementos de guerra da memória!</strong><br><br>
+      Você está pronto para essa aventura?
+    </p>
+    <button class="btn-comecar" onclick="window.location.href='game.html'">Start the mission</button>
+  </div>
+
+</body>
+</html>

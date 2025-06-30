@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elf memory</title>
+  <link rel="stylesheet" href="game.css">
+
+  <!-- Estilos W3.CSS -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <!-- Estilo personalizado -->
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      
+      background-size: cover;
+      background-position: center;
+      font-family: 'Georgia', serif;
+      color: #fff;
+      text-shadow: 1px 1px 4px #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .intro-box {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #ffe38f;
+       font-family: 'Georgia', serif;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+
+    .bg-fullscreen {
+      /* Imagem de fundo ocupa 100% da tela */
+      background-image: url('../imagem/play.png');
+      background-size: cover;        /* Cobre toda a tela */
+      background-position: center;   /* Centraliza */
+      background-repeat: no-repeat;  /* Evita repetição */
+      height: 100%;
+      width: 100%;
+      position: relative;
+     
+    }
+
+    .btn-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+
+  </style>
+</head>
+
+<body class="custom-nav">
+  <div class="bg-fullscreen">
+    <br> <br>
+     <h1>Memory Battle</h1> 
+    <div class="btn-center">
+      <a href="bv.html">
+        <button class="btn-comecar btnaxx" onclick="window.location.href='game.html'">START</button>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
+
